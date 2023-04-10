@@ -1,0 +1,15 @@
+.searchInput {
+    border: 0px;
+    border-radius: 15px 0px 0px 15px;
+    background-color: #ffffff;
+    height: 2em;
+}
+.searchButton {
+    border: 0px;
+    border-radius: 0px 15px 15px 0px;
+    background-color: #F6E1C3;
+    height: 2em;
+    margin-left: 4px;
+    margin-right: 85px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}

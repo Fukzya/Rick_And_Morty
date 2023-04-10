@@ -1,3 +1,22 @@
-.App {
-   text-align: center;
+.base {
+   padding: 25px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+
+.nav {
+   flex-wrap: nowrap;
+   background-color: #191825;
+   padding: 4px;
+   display: flex;
+   flex-direction: row;
+   justify-content:flex-end;
+   margin-bottom: 0.5em;
+   border-radius: 17px;
+   width: 79%;
+}
+
+body{
+   background-image: url(C:\Users\santi_tgwny3h\OneDrive\Escritorio\rick_and_morty\642519.jpg);
 }
