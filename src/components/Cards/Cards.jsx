@@ -2,7 +2,7 @@ import Card from '../Card/Card.jsx';
 import { CardsContainer } from "./styledComponent";
 
 export default function Cards(props) {
-   const { characters } = props;
+   const { characters , onClose } = props;
    return(
    <CardsContainer>
       {characters.map((character) => (
@@ -15,7 +15,7 @@ export default function Cards(props) {
             gender = {character.gender}
             origin = {character.origin.name}
             image = {character.image}
-            onClose={() => window.alert('Emulamos que se cierra la card')}
+            onClose={onClose}
          />
       ))}
    </CardsContainer>);
